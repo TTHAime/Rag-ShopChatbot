@@ -1,0 +1,10 @@
+google-genai
+python-dotenv
+pandas
+pypdf
+
+langchain-core
+langchain-text-splitters
+langchain-postgres
+sqlalchemy
+asyncpg
