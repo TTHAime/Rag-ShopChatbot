@@ -28,7 +28,7 @@ VECTOR_SIZE = int(os.getenv("VECTOR_SIZE", "1536"))         # ต้องตร
 TOP_K = int(os.getenv("TOP_K", "4"))
 
 # โมเดลตอบ (ปรับได้ใน .env)
-GEN_MODEL = os.getenv("GEN_MODEL", "gemini-2.0-flash-lite")
+GEN_MODEL = os.getenv("GEN_MODEL", "gemini-2.5-flash")
 
 SYSTEM_PROMPT = """คุณคือผู้ช่วยตอบคำถาม
 - ถ้าตอบจาก Context ได้ ให้ตอบโดยอ้างอิงจาก Context เท่านั้น
